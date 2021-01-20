@@ -1,5 +1,10 @@
+html {
+    font-size: 62.5%;
+}
+
 body {
-    background-color: #000000;
+    background: rgb(155,89,182);
+    background: linear-gradient(120deg, rgb(142, 68, 173) 0%, rgba(230,126,34,1) 100%);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -11,7 +16,9 @@ body {
 }
 
 h1 {
+    font-size: 4rem;
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
+    text-shadow: 2px 0px 10px rgba(0, 0, 0, 0.582);
 }
